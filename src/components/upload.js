@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AdvancedImage } from "@cloudinary/react";
 import { Cloudinary } from "@cloudinary/url-gen";
 import { fill } from "@cloudinary/url-gen/actions/resize";
-import "./App.css";
+// import ".app.css";
 
 export const Upload = () => {
   const [imageSelected, setImageSelected] = useState("");
