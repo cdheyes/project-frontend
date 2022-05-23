@@ -15,7 +15,6 @@ const Home = () => {
     return (
 		<div className="contact">
 			<div className="hero">
-                <Navbar />
                 <Header />
 				<div className="imageContainer">
 					{images.map((image, i) => {
