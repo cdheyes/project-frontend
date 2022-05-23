@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
-import { Header } from "./components.js/header";
-import { Bio } from "./components.js/bio";
-import { SignForm, LogForm } from "./components.js/signLog";
-import { Footer } from "./components.js/footer";
-import { fetchImages } from "./utils.js";
+import { Header } from "./components/header";
+import { Bio } from "./components/bio";
+import { SignForm } from "./components/signLog"
+import { LogForm } from "./components/signLog"
+import { Footer } from "./components/footer";
+import { fetchImages } from "./utils/index.js";
 
 import "./App.css";
 

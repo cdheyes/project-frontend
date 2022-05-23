@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { signUp, logIn } from "../utils.js/index";
+import { signUp, logIn } from "../utils";
 
 export const SignForm = ({setUser}) => {
     const [username, setUsername] = useState();
