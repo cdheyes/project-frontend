@@ -1,7 +1,7 @@
-export const Bio = ({ title }) => {
+export const Bio = () => {
     return (
         <div>
-        <h2> {title} </h2>
+        <h2> Bio </h2>
         <h3> Edit Profile </h3>
         <p> </p>
         </div>
