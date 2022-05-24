@@ -3,11 +3,11 @@ h5{
 }
 
 .carouselContainer{
-    margin: 0 30%;
+    margin-top: 5%;
 }
 .item{
-    min-height: 40rem;
-    min-width: 50rem;
+    min-height: 40%;
+    min-width: 50%;
     padding: 100px;
     padding-bottom: 150px;
 }
