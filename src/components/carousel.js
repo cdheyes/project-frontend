@@ -4,16 +4,27 @@ import images from "../img/carouselArray"
 import "../style/home.css";
 
 export const Carousel = () => {
+
+    const [width, setWidth] = useState(0);
+    const carousel = useRef();
+
+    useEffect(() => {
+        // console.log(carousel.current.scrollWidth, carousel.current.of
+        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+    }, []);
+
     return (
         <div className="carouselContainer">
         
-        <motion.div className="carousel">
-        <motion.div className="innerCarousel">
+        <motion.div ref={carousel} className="carousel">
+        <motion.div drag="x"
+        dragConstraints= {{ right: 0, left: -width}}
+        className ="innerCarousel">
                 {images.map(image =>{
                     return(
-                      <motion.div className="item">
-                          {/* <h5>test</h5> */}
-                          <img src={image} alt=""/>
+                      <motion.div className="item" key={image}>
+                          <h5>Cuisine</h5>
+                          <img className="itemImg" src={image} alt=""/>
                       </motion.div>
                     );
                 })}
@@ -25,3 +36,4 @@ export const Carousel = () => {
         
     );
 }
+
