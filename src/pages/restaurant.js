@@ -6,32 +6,34 @@ import { useState, useEffect } from "react";
 import { fetchImages } from "../utils/index";
 import { Carousel } from "../components/carousel";
 import React from "react";
-import "../style/home.css";
+import "../style/restaurant.css";
+import images from "../img/foodArray";
 
 const Restaurant = () => {
-	const [images, setImages] = useState([]);
+	// const [images, setImages] = useState([]);
 
-	useEffect(() => {
-		fetchImages(setImages);
-	}, []);
+	// useEffect(() => {
+	// 	fetchImages(setImages);
+	// }, []);
 
 	return (
 		<div>
-			<h1>Restaurant Food</h1>
+			<h1>User pictures of this restaurants food</h1>
 			<Header />
 			<Upload />
-			{/*images of food from choosen restaurant */}
-			<Carousel />
+			{/* <Carousel /> */}
+
+			{/*six images of food from choosen restaurant */}
 			<div className="imageContainer">
-				{/* {images.map((image, i) => {
+				{images.slice(0, 6).map((image, i) => {
 					return (
 						<img
 							className="images"
-							src={image.download_url}
-							alt={`random file from unsplash number ${i}`}
+							src={image}
+							alt={"displays images from img/foodArray"}
 						/>
 					);
-				})} */}
+				})}
 			</div>
 
 			<Footer />
