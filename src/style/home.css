@@ -1,0 +1,31 @@
+/* h5{
+    color: green;
+    font-size: 100px;
+} */
+body{
+    margin: 0 10%
+}
+
+.item{
+    min-height: 10rem;
+    min-width: 3rem;
+    padding: 40px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+.innerCarousel{
+    display: flex;
+    background: #5bccf6;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+.carousel{
+    cursor: grab;
+    overflow:hidden;
+}
