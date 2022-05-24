@@ -1,10 +1,18 @@
-export const Bio = () => {
+import React from "react";
+import { MdPlace } from "react-icons/md";
+import "../style/contact.css"
+
+export const Bio = ({
+    icon= <MdPlace></MdPlace>,
+    text= "this is an info",
+}) => {
     return (
         <div>
-        <h2> Bio </h2>
-        <h3> Edit Profile </h3>
-        <p> </p>
+            <div className="locContainer">
+        <div className="icon">{icon}</div>
+        <div className="text">{text}</div>
+        </div>    
         </div>
-        
+
     );
 };
