@@ -2,10 +2,6 @@
     color: green;
     font-size: 100px;
 } */
-body{
-    margin: 0 10%
-}
-
 .item{
     min-height: 10rem;
     min-width: 3rem;

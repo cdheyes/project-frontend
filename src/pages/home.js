@@ -19,7 +19,7 @@ const Home = () => {
                 <Header />
 				<Carousel/>
 				<div className="imageContainer">
-					{images.map((image, i) => {
+					{/* {images.map((image, i) => {
 						return (
 							<img
 							className="images"
@@ -27,7 +27,7 @@ const Home = () => {
 							alt={`random file from unsplash number ${i}`}
 							/>
 						);
-					})}
+					})} */}
 				</div>
 				{/* <img src ="https://picsum.photos/200/300" alt ="Lorem picsum random picture"/> */}
 				<Footer />
