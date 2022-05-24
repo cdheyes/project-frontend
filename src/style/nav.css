@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer {
+    font-size: 25px;
+    
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #3482ff;
+}
+
+ul {
+    list-style-type: none;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+ul :hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    transition: ease-in-out;
+}
+.react-icons {
+    margin-right: 15px;
+}

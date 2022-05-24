@@ -3,6 +3,7 @@ import { Navbar } from "../components/navbar";
 import { Header } from "../components/header";
 import { useState, useEffect } from "react";
 import { fetchImages } from "../utils/index";
+import {Carousel} from "../components/carousel";
 import React from "react";
 
 const Home = () => {
@@ -16,8 +17,9 @@ const Home = () => {
 		<div className="contact">
 			<div className="hero">
                 <Header />
+				<Carousel/>
 				<div className="imageContainer">
-					{images.map((image, i) => {
+					{/* {images.map((image, i) => {
 						return (
 							<img
 							className="images"
@@ -25,7 +27,7 @@ const Home = () => {
 							alt={`random file from unsplash number ${i}`}
 							/>
 						);
-					})}
+					})} */}
 				</div>
 				{/* <img src ="https://picsum.photos/200/300" alt ="Lorem picsum random picture"/> */}
 				<Footer />
