@@ -1,20 +1,8 @@
-body {
+.restBody {
     margin: 0 10%
 }
 
-.item {
-    min-height: 10rem;
-    min-width: 3rem;
-    padding: 40px;
-}
-
-.item img {
-    width: 100%;
-    height: 100%;
-    border-radius: 3%;
-}
-
-.imageContainer {
+.foodImageContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,20 +13,8 @@ body {
     height: 100%;
 }
 
-.imageContainer .images {
+.foodImageContainer .foodImages {
     width: 300px;
     height: 300px;
     padding: 20px;
-}
-
-.innerCarousel {
-    display: flex;
-    background: #5bccf6;
-    flex-direction: row;
-    margin-bottom: 4%;
-}
-
-.carousel {
-    cursor: grab;
-    overflow: hidden;
 }
