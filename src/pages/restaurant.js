@@ -17,14 +17,17 @@ const Restaurant = () => {
 	// }, []);
 
 	return (
-		<div className="restBody">
+		<div id="restBody">
 			<h1>User pictures of this restaurants food</h1>
 			{/* <Header /> */}
-			<Upload />
 			{/* <Carousel /> */}
 
+			<div id="uploadContainer">
+				<Upload />
+			</div>
+
 			{/*six images of food from choosen restaurant */}
-			<div className="foodImageContainer">
+			<div id="foodImageContainer">
 				{images.slice(0, 6).map((image, i) => {
 					return (
 						<img
