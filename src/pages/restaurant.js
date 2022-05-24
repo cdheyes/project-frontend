@@ -23,7 +23,7 @@ const Restaurant = () => {
 			{/*images of food from choosen restaurant */}
 			<Carousel />
 			<div className="imageContainer">
-				{images.map((image, i) => {
+				{/* {images.map((image, i) => {
 					return (
 						<img
 							className="images"
@@ -31,7 +31,7 @@ const Restaurant = () => {
 							alt={`random file from unsplash number ${i}`}
 						/>
 					);
-				})}
+				})} */}
 			</div>
 
 			<Footer />
