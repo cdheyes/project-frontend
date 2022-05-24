@@ -1,4 +1,3 @@
-import { Navbar } from "../components/navbar"
 import { Upload } from "../components/upload"
 import { Footer } from "../components/footer"
 import { Header } from "../components/header"
