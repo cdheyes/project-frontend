@@ -1,6 +1,6 @@
 h5{
-    font-size: 80px;
-    letter-spacing: 4px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
     text-align: center;
     /* position: relative;
     top: 50%;
@@ -13,11 +13,11 @@ h5{
     margin-left: 10%;
 }
 .item{
-    min-height: 10%;
+    /* min-height: 10%; */
     min-width: 20%;
-    padding: 100px;
+    padding: 10px;
     padding-top: 15px;
-    padding-bottom: 150px;
+    padding-bottom: 25px;
 }
 
 .itemImg{
@@ -37,7 +37,7 @@ h5{
 .carousel{
     cursor: grab;
     overflow:hidden;
-    background: #3482ff;
+    background: #2c73e5;
 }
 
 .homeContentContainer{
@@ -50,11 +50,11 @@ h5{
 }
 
 .hometitle{
-    font-size: 200px;
+    font-size: 45px;
 }
 
 .missionStatement{
-    font-size: 100px;
+    font-size: 25px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2%;
@@ -63,8 +63,8 @@ h5{
 
 .quickSearch:nth-child(3){
     align-self: flex-start;
-    font-size: 80px;
-    margin-top: 5%;
+    font-size: 20px;
+    margin-top: 2%;
     margin-left: 10%;
     
 }
@@ -75,6 +75,6 @@ h5{
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
-    font-size: 100px;
+    font-size: 20px;
     margin: 5%;
 }
