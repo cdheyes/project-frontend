@@ -1,10 +1,9 @@
 import { Footer } from "../components/footer";
 import { Navbar } from "../components/navbar";
-import { Header } from "../components/header";
 import { useState, useEffect } from "react";
 import { fetchImages } from "../utils/index";
 import {Carousel} from "../components/carousel";
-// import {Logo} from "";
+import logo from "../img/takearray1.png";
 import React from "react";
 
 const Home = () => {
@@ -16,13 +15,12 @@ const Home = () => {
 
 	return (
         <div className="heroHome">
-                <Header />
             <div className="homeContentContainer">
 
-            {/* <img className="" src ={Logo} alt="logo"/>  */}
+            
 
                     <div className="hometitle">
-                        <p>TAKE ARRAY</p>
+                        <img className="" src ={logo} alt="logo"/> 
                     </div>
 
                     <div className="missionStatement">
