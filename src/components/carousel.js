@@ -16,7 +16,7 @@ export const Carousel = () => {
     return (
         <div className="carouselContainer">
         
-        <motion.div ref={carousel} className="carousel">
+        <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
         <motion.div drag="x"
         dragConstraints= {{ right: 0, left: -width}}
         className ="innerCarousel">
@@ -24,7 +24,7 @@ export const Carousel = () => {
                     return(
                       <motion.div className="item" key={image}>
                           <h5>Cuisine</h5>
-                          <img className="itemImg" src={image} alt=""/>
+                          <a href="/"><img className="itemImg" src={image} alt="Cuisine"/></a>
                       </motion.div>
                     );
                 })}
