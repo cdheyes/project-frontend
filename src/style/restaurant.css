@@ -22,13 +22,16 @@
 
     width: 90%;
     height: 90%;
+    padding:  5px 0px 5px 20px;
+     /*      top right bottom left */
 }
 
 #foodImageContainer .foodImages {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    flex: 0 0 30%;
+    max-width: 360px;
+    max-height: 360px;
+    padding: 5px 0px 10px 0px;
+    /*      top right bottom left */
+    flex: 0 0 33%;
     transition: all .1s ease-in-out;
 }
 

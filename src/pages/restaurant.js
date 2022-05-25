@@ -18,11 +18,12 @@ const Restaurant = () => {
 
 	return (
 		<div id="restBody">
-			<h1>User pictures of this restaurants food</h1>
+			<h1>Here's what our user's have been served</h1>
 			{/* <Header /> */}
 			{/* <Carousel /> */}
 
 			<div id="uploadContainer">
+				<h2>Why not add a picture of your meal:</h2>
 				<Upload />
 			</div>
 
