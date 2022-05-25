@@ -18,12 +18,12 @@ const Restaurant = () => {
 
 	return (
 		<div id="restBody">
-			<h1>User pictures of this restaurants food</h1>
+			<h1>What our user's have been served</h1>
 			{/* <Header /> */}
 			{/* <Carousel /> */}
 
 			<div id="uploadContainer">
-				<Upload />
+				<span>Add a picture of your meal </span> <Upload />
 			</div>
 
 			{/*six images of food from choosen restaurant */}

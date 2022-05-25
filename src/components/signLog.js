@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { signUp, logIn } from "../utils/index";
+import "../style/login.css";
 
 export const SignForm = ({setUser}) => {
     const [username, setUsername] = useState();
@@ -12,12 +13,12 @@ export const SignForm = ({setUser}) => {
     }
 
     return (
-        <form onSubmit={submitSignUpHandler}>
-            <input onChange={(e) => setUsername(e.target.value)} 
+        <form className= "signForm" onSubmit={submitSignUpHandler}>
+            <input className="inputBox" onChange={(e) => setUsername(e.target.value)} 
             placeholder="Username"/>
-            <input onChange={(e) => setEmail(e.target.value)}/>
-            <input onChange={(e) => setPassword(e.target.value)}/>
-            <button type="submit" > Sign-up </button>
+            <input className="inputBox" onChange={(e) => setEmail(e.target.value)} placeholder="Email"/>
+            <input className="inputBox" onChange={(e) => setPassword(e.target.value)} placeholder="Password"/>
+            <button className="actionBtn" type="submit" > Sign-up </button>
         </form>
 
         
@@ -27,21 +28,20 @@ export const SignForm = ({setUser}) => {
 
 export const LogForm = ({setUser}) => {
     const [username, setUsername] = useState();
-    const [email, setEmail] = useState();
     const [password, setPassword] = useState();
 
     const submitLogInHandler = (e) => {
         e.preventDefault();
-        logIn(username, email, password, setUser);
+        logIn(username, password, setUser);
     }
 
     return (
-        <form onSubmit={submitLogInHandler}>
-            <input onChange={(e) => setUsername(e.target.value)} 
+        <form className= "logForm" onSubmit={submitLogInHandler}>
+            <input className="inputBox" onChange={(e) => setUsername(e.target.value)} 
             placeholder="Username"/>
-            <input onChange={(e) => setEmail(e.target.value)}/>
-            <input onChange={(e) => setPassword(e.target.value)}/>
-            <button type="submit" > Log-in</button>
+            <input className="inputBox" onChange={(e) => setPassword(e.target.value)} placeholder="Password"/>
+            <p></p>
+            <button className="actionBtn" type="submit" > Log-in</button>
         </form>
 
         
