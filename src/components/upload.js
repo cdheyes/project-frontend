@@ -3,6 +3,7 @@ import { AdvancedImage } from "@cloudinary/react";
 import { Cloudinary } from "@cloudinary/url-gen";
 import { fill } from "@cloudinary/url-gen/actions/resize";
 // import ".app.css";
+import "../style/restaurant.css";
 
 export const Upload = () => {
 	const [imageSelected, setImageSelected] = useState("");
@@ -33,12 +34,15 @@ export const Upload = () => {
 	return (
 		<div>
 			<input
+				class="chooseButton"
 				type="file"
 				onChange={(event) => {
 					setImageSelected(event.target.files[0]);
 				}}
 			/>
-			<button onClick={uploadImage}>Upload Image</button>
+			<button class="uploadButton" onClick={uploadImage}>
+				Upload Image
+			</button>
 			<AdvancedImage cldImg={myImage} />
 		</div>
 	);

@@ -1,5 +1,5 @@
 #restBody {
-    margin: 0 10%
+    margin: 1%;
 }
 
 #uploadContainer {
@@ -8,10 +8,59 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     height: 10vh;
+    font-size: 24px;
 
 }
+
+.uploadButton {
+        box-shadow: inset 0px 1px 0px 0px #bee2f9;
+            background: linear-gradient(to bottom, #98d5fb 5%, #3482ff 100%);
+            background-color: #63b8ee;
+            border-radius: 6px;
+            border: 1px solid #3866a3;
+            display: inline-block;
+            cursor: pointer;
+            color: #14396a;
+            font-family: Arial;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 13px 24px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #7cacde;
+}
+
+.uploadButton:hover {
+    background: linear-gradient(to bottom, #3482ff 5%, #63b8ee 100%);
+    background-color: #468ccf;
+}
+
+.uploadButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.chooseButton {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-left: 20px;
+
+}
+
+
 
 #foodImageContainer {
     display: flex;
@@ -22,14 +71,14 @@
 
     width: 90%;
     height: 90%;
-    padding:  5px 0px 5px 20px;
+    padding:  5px 5px 20px 10px;
      /*      top right bottom left */
 }
 
 #foodImageContainer .foodImages {
     max-width: 360px;
     max-height: 360px;
-    padding: 5px 0px 10px 0px;
+    padding: 5px 5px 10px 5px;
     /*      top right bottom left */
     flex: 0 0 33%;
     transition: all .1s ease-in-out;
