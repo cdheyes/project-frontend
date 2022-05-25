@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    /*      top right bottom left */
+
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    border-top: 1px solid silver;
+}
+
+.footer .links {
+    left: 0;
+}
+
+.footer img {
+    max-width: auto;
+    height: 60px;
+    padding: 10px 10px 10px 10px;
+    /*      top right bottom left */
+}
