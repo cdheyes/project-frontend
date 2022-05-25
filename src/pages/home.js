@@ -22,25 +22,17 @@ const Home = () => {
             {/* <img className="" src ={Logo} alt="logo"/>  */}
 
                     <div className="hometitle">
-                        <p>OUR APP NAME</p>
+                        <p>TAKE ARRAY</p>
                     </div>
 
                     <div className="missionStatement">
-
-                        <p className="missionTitle">
-                        Mission Statement:</p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip.
-                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip.
-                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip.
-                        Lorem ipsum dolor sit amet, consectetur adip. Lorem ipsum dolor sit amet, consectetur adip.
+                        <p>
+						Ever sat down to your takeaway meal to find yourself thinking “hang on a minute, that looks nothing like the picture advertised”! Well here at [TAKE-ARRAY] we believe that customers should get a trusted insight in to their food before they decide where to order from. Here, users can upload images of their meals, alongside reviews. So check what’s been cooking or sign up to submit your own photo reviews!
                         </p>
 
 						</div>
 
 						<div className="quickSearch">
-
-							<p>Quick Search:</p>
 							<p>In a hurry? Scroll cuisines too see user reviews</p>
 
 						</div>
