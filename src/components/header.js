@@ -1,7 +1,7 @@
-export const Header = () => {
+export const Header = ({ title }) => {
     return (
         <div>
-        <h1>Header</h1>
+        <h1> {title} </h1>
         </div>
         
     );

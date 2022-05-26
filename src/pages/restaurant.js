@@ -23,7 +23,8 @@ const Restaurant = () => {
 			{/* <Carousel /> */}
 
 			<div id="uploadContainer">
-				<span>Add a picture of your meal </span> <Upload />
+				<span>Add a picture of your meal </span>
+				<Upload />
 			</div>
 
 			{/*six images of food from choosen restaurant */}
