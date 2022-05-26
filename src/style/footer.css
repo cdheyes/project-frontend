@@ -12,13 +12,19 @@
     font-size: 18px;
 }
 
-.footer .links {
+.footer .socialLinks {
     left: 0;
 }
 
 .footer img {
     max-width: auto;
     height: 60px;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 10px 10px 10px;
     /*      top right bottom left */
+        transition: all .1s ease-in-out;
+}
+
+.footer .socialLinks img:hover {
+    transform: scale(1.1);
+
 }
