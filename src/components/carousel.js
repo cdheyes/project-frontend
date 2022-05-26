@@ -49,7 +49,7 @@ return (
             {image.map(image =>{
                 return(
                   <motion.div className="item" key={image}>
-                      {/* <h5>Cuisine</h5> */}
+                      <h5>Cuisine</h5>
                       <a href=""><img className="itemImg" src={image} alt="Cuisine"/></a>
                   </motion.div>
                 );
