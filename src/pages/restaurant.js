@@ -18,12 +18,12 @@ const Restaurant = () => {
 
 	return (
 		<div id="restBody">
-			<h1>What our user's have been served</h1>
+			<h1>Our user submissions for this establishment</h1>
 			{/* <Header /> */}
 			{/* <Carousel /> */}
 
 			<div id="uploadContainer">
-				<span>Add a picture of your meal </span>
+				<span>Add a picture of your meal: </span>
 				<Upload />
 			</div>
 
