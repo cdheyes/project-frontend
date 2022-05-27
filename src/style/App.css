@@ -28,9 +28,19 @@
 
 .imageContainer .images {
   width: 300px;
-  height: 350px;
+  height: 300px;
   padding: 20px;
 }
+
+@media only screen and (max-width: 800px) {
+
+  /* Changes to CSS go here */
+  * {
+    font-size: 90%;
+  }
+
+}
+
 
 /* .active_styles{
   background-color: blue;

@@ -40,7 +40,7 @@ const Home = () => {
 						<Carousel/>
 
 						<div className="slogan">
-							Our Apps Slogan Lorem ipsum dolor sit amet, consectetur adip.
+							Add your images and takes too [Take-Array]
 						</div>
 
 						<div className="imageContainer">

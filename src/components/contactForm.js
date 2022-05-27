@@ -9,7 +9,8 @@ export const ContactForm = () => {
     <div>
         <form className="form-styling">
             <div className="form-group">
-                <label htmlFor="name">Your Name
+                <label htmlFor="name">
+                    <p className="formHeader">Your Name</p>
                 <input className="input" type="text" id="name"
                 name="name" value={name} 
                 onChange={e => setName(e.target.value)}
@@ -18,7 +19,8 @@ export const ContactForm = () => {
             </div>
 
             <div className="form-group">
-                <label htmlFor="email">Your Email
+                <label htmlFor="email">
+                <p className="formHeader">Your Email</p>
                 <input className="input" type="text" id="email"
                 email="email" value={email} 
                 onChange={e => setEmail(e.target.value)}
@@ -27,14 +29,16 @@ export const ContactForm = () => {
             </div>
 
             <div className="form-group">
-                <label htmlFor="message">Your Message
+                <label htmlFor="message">
+                <p className="formHeader">Message</p>
                 <textarea type="text" id="message"
-                message="message" value={message} 
+                message="message" rows="10" value={message} 
                 onChange={e => setMessage(e.target.value)}
                 />
                 </label>
             </div>
-            <button className="button" type="submit">Send</button>
+            
+            <button className="buttonSend" type="submit">Send</button>
         </form>
     </div>
   )

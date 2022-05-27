@@ -14,7 +14,7 @@ export const ContactSection = () => {
                 <div className="wrapper">
             <div className="left">
             <Bio icon={<MdLocalPhone/>} text="+449931283"/>
-            <Bio icon={<MdEmail/>} text="takeaway@gmail.com"/>
+            <Bio icon={ <a href = "mailto: linden.hamer.97@hotmail.co.uk"><MdEmail/></a>} text="takeaway@gmail.com"/>
             <Bio text="Manchester, United Kingdom"/>
             </div>
             <div className="right">
