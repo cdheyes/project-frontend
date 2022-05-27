@@ -43,7 +43,7 @@ export const Upload = () => {
 			<button class="uploadButton" onClick={uploadImage}>
 				Upload Image
 			</button>
-			{/* <AdvancedImage cldImg={myImage} /> */}
+			<AdvancedImage cldImg={myImage} />
 		</div>
 	);
 };
