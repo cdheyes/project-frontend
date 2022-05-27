@@ -4,12 +4,15 @@ import { Map } from "../components/map";
 import "../style/contact.css";
 
 const Contact = () => {
-	return (
-		<div>
-			<ContactSection />
-			<Map />
-		</div>
-	);
-};
 
-export default Contact;
+    return (
+        <div className ="contactPageContainer">
+             <Map/>
+            <ContactSection />
+        </div>
+    )
+
+}
+
+export default Contact
+
