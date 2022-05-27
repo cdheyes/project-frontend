@@ -5,9 +5,9 @@ import "../style/contact.css";
 
 const Contact = () => {
     return (
-        <div>
+        <div className ="contactPageContainer">
+             <Map/>
             <ContactSection />
-            <Map />
         </div>
     )
 
