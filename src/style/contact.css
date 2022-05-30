@@ -1,5 +1,5 @@
 
-contactPage
+
 h1 {
     display: flex;
     justify-content: center;
@@ -72,21 +72,26 @@ h2 {
     font-size: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .icon {
     all:unset;
-    color: white;
-    background-color: #3482ff;
-    padding: 5%;
+    color: rgb(10, 4, 184);
+    /* background-color: #3482ff; */
+    padding: 1%;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    transform:scale(1.5)
 }
 
 
 /* contactForm */
 
 .form-group {
-    width: 400%;
+    width: 100%;
     margin-bottom: 1%;
     display:flex;
 }
@@ -161,6 +166,7 @@ textarea {
 .contactPageContainer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .iframe{

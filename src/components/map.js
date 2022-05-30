@@ -15,8 +15,6 @@ export const Map = () => {
               allowFullScreen=""
               aria-hidden="false"
               tabIndex="0"
-            //   display="flex"
-            //   justify-content="center"
             />
 
     </div>

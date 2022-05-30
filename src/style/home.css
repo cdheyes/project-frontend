@@ -106,8 +106,8 @@ h5{
     margin-right: 10%;
     margin-top: 1%;
     padding: 3px;
-    background-color: #e9eef5;
-    border: 2px solid white;
+    background-color: #e9eef57d;
+    border: 2px solid rgba(255, 255, 255, 0.431);
     border-radius: 2px;
     
 }
@@ -119,8 +119,8 @@ h5{
     margin-top: 2%;
     margin-left: 10%;
     padding: 3px;
-    background-color: #e9eef5;
-    border: 2px solid white;
+    background-color: #e9eef57d;
+    border: 2px solid rgba(255, 255, 255, 0.431);
     border-radius: 2px;
 }
 
