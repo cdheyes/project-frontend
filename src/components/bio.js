@@ -3,7 +3,7 @@ import { MdPlace } from "react-icons/md";
 import "../style/contact.css"
 
 export const Bio = ({
-    icon= <MdPlace></MdPlace>,
+    icon= <MdPlace className= "iconSVG" ></MdPlace>,
     text= "this is an info",
 }) => {
     return (

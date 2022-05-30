@@ -34,13 +34,13 @@ export const Upload = () => {
 	return (
 		<div>
 			<input
-				class="chooseButton"
+				className="chooseButton"
 				type="file"
 				onChange={(event) => {
 					setImageSelected(event.target.files[0]);
 				}}
 			/>
-			<button class="uploadButton" onClick={uploadImage}>
+			<button className="uploadButton" onClick={uploadImage}>
 				Upload Image
 			</button>
 			<AdvancedImage cldImg={myImage} />

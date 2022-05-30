@@ -1,5 +1,6 @@
 import { Upload } from "../components/upload";
 import { Footer } from "../components/footer";
+import { Turkish } from "../components/turkish"
 // import { Header } from "../components/header";
 // import { Navbar } from "../components/navbar";
 // import { useState, useEffect } from "react";
@@ -7,7 +8,7 @@ import { Footer } from "../components/footer";
 // import { Carousel } from "../components/carousel";
 import React from "react";
 import "../style/restaurant.css";
-import images from "../img/foodArray";
+import images from "../img/curryArray";
 
 const Restaurant = () => {
 	// const [images, setImages] = useState([]);
@@ -25,10 +26,14 @@ const Restaurant = () => {
 			<div id="uploadContainer">
 				<span>Add a picture of your meal: </span>
 				<Upload />
+				<div id="foodImageContainer">
+				<Turkish />
+				<Footer />
+				</div>
 			</div>
 
 			{/*six images of food from choosen restaurant */}
-			<div id="foodImageContainer">
+			{/* <div id="foodImageContainer">
 				{images.slice(0, 6).map((image, i) => {
 					return (
 						<img
@@ -38,9 +43,8 @@ const Restaurant = () => {
 						/>
 					);
 				})}
-			</div>
+			</div> */}
 
-			<Footer />
 		</div>
 	);
 };

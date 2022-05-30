@@ -20,7 +20,7 @@ const Home = () => {
             
 
                     <div className="hometitle">
-                        <img className="" src ={logo} alt="logo"/> 
+                        <img className="logoHome" src ={logo} alt="logo"/> 
                     </div>
 
                     <div className="missionStatement">

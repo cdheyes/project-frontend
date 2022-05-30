@@ -19,6 +19,7 @@
 
     box-shadow: 0 2px 5px rgb(52, 130, 255, 0.5),
                 inset 0 1px 1px rgb(52, 130, 255, 0.1);
+    border-bottom: 3px solid rgb(255, 131, 15) ;
 }
 
 ul {
@@ -38,22 +39,26 @@ ul a {
 }
 
 li:hover{
-    background-color: white;
+    background-color: rgba(190, 243, 255, 0.631);
     border-radius: 10px;
     color: black;
     transition: ease-in-out;
 }
+
+
 
 li {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+    padding: 4px;
+    font-size: 15px;
 }
 
 .leftNavPos{
     display: flex;
-    transform: translateX(-500px);
+    margin-right: 500px;
 
 }
 
@@ -64,6 +69,23 @@ li {
 }
 
 .miniLogo {
-    width: 40px;
+    width: 60px;
     height: 40px;
+    
+}
+
+@media all and (max-width: 1300px) {
+    .leftNavPos{
+        margin-right: 100px;
+    
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+    .leftNavPos{
+        margin-right: 0px;
+    
+    }
+
 }
