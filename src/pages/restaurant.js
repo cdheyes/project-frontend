@@ -8,7 +8,7 @@ import { Turkish } from "../components/turkish"
 // import { Carousel } from "../components/carousel";
 import React from "react";
 import "../style/restaurant.css";
-import images from "../img/foodArray";
+import images from "../img/curryArray";
 
 const Restaurant = () => {
 	// const [images, setImages] = useState([]);
