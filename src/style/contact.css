@@ -173,7 +173,7 @@ textarea {
 
 }
  
-@media only screen and (max-width: 768px){
+@media all and (max-width: 1000px) {
     .wrapper {
         flex-direction: column;
     }
@@ -181,8 +181,6 @@ textarea {
         display: none;
     }
 }
-
-
 .left, .right {
     max-width: 100%
 }
@@ -191,3 +189,7 @@ textarea {
     padding: 4rem 2rem 2rem 2rem
 }
 
+@media all and (max-width: 500px) {
+
+
+}
