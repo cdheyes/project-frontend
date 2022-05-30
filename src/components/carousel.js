@@ -50,27 +50,3 @@ export const Carousel = () => {
     );
     }
 
-//     return (
-//         <div className="carouselContainer">
-        
-//         <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
-//         <motion.div drag="x"
-//         dragConstraints= {{ right: 0, left: -width}}
-//         className ="innerCarousel">
-//                 {carouselArray.map((cuisine, image) =>{
-//                     return(
-//                       <motion.div className="item" key={(cuisine, image)}>
-//                           {cuisine.image}
-//                           <a href="/"><img className="itemImg" src={cuisine.image} alt="Cuisine"/></a>
-//                       </motion.div>
-//                     );
-//                 })}
-//             </motion.div>
-//             </motion.div>
-
-
-//         </div>
-        
-//     );
-// }
-
