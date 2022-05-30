@@ -1,8 +1,5 @@
-.ContactPage{
-    background-color: rgb(225, 240, 240);
-}
 
-
+contactPage
 h1 {
     display: flex;
     justify-content: center;
@@ -53,7 +50,9 @@ h2 {
 .right {
     width: 60%;
     max-width: 500px;
+
 }
+
 
 .locContainer {
     padding: 2%;
@@ -189,7 +188,21 @@ textarea {
     padding: 4rem 2rem 2rem 2rem
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 1500px) {
+
+    .iframe{
+        width: 200%;
+    }
+
+    .input, textarea {
+        width: 150%;
+        font-size: 40%;
+    }
+
+    .locContainer {
+        font-size: 60%;
+    }
+    
 
 
 }

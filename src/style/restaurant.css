@@ -1,8 +1,4 @@
-#restBody {
-    padding: 20px 0px 0px 0px;
-        /*   top right bottom left */
-    background-color: rgb(225, 240, 240);
-}
+
 
 #uploadContainer {
     display: flex;
