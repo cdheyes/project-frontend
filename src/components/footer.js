@@ -8,12 +8,12 @@ import facebook from "../images/facebook.png";
 export const Footer = () => {
 	return (
 		<div className="footer">
-			<img src={logo} alt="website logo" />
+			<img className="footerLogo" src={logo} alt="website logo" />
 			<span>Copyright 2022</span>{" "}
 			<div className="socialLinks">
 				{/* <img src={home} alt="home" /> */}
-				<a href="https://twitter.com/home">
-					<img src={twitter} alt="twitter logo" />
+				<a  href="https://twitter.com/home">
+					<img classname= "twitter" src={twitter} alt="twitter logo" />
 				</a>
 				<a href="https://instagram.com/">
 					<img src={instagram} alt="instagram logo" />
