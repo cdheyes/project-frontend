@@ -47,3 +47,15 @@ export const logIn = async (username, password, setter) => {
 		console.log(error);
 	}
 };
+
+// filter cuisine function
+export const fetchCuisine = async (searchTerm, setter) => {
+	try {
+		const res = await fetch(`${process.env.REACT_APP_REST_API}rest/${searchTerm}`);
+		const data = await res.json();
+		setter(data.restaurants);
+	} catch (error) {
+		console.log(error);
+	}
+	
+ }
