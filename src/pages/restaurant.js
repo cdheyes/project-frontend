@@ -1,14 +1,17 @@
 import { Upload } from "../components/upload";
 import { Footer } from "../components/footer";
 import { Turkish } from "../components/turkish"
+import { Indian } from "../components/indian"
+import { Italian } from "../components/italian"
+import { Chinese } from "../components/chinese"
+import { American } from "../components/american"
+import { Japanese } from "../components/sushi"
 // import { Header } from "../components/header";
 // import { Navbar } from "../components/navbar";
 // import { useState, useEffect } from "react";
 // import { fetchImages } from "../utils/index";
-// import { Carousel } from "../components/carousel";
 import React from "react";
 import "../style/restaurant.css";
-import images from "../img/curryArray";
 
 const Restaurant = () => {
 	// const [images, setImages] = useState([]);
@@ -21,29 +24,21 @@ const Restaurant = () => {
 		<div id="restBody">
 			<h1>Our user submissions for this establishment</h1>
 			{/* <Header /> */}
-			{/* <Carousel /> */}
+
 
 			<div id="uploadContainer">
 				<span>Add a picture of your meal: </span>
 				<Upload />
 				<div id="foodImageContainer">
 				<Turkish />
+				<Indian />
+				<Italian />
+				<Chinese />
+				<American />
+				<Japanese />
 				<Footer />
 				</div>
 			</div>
-
-			{/*six images of food from choosen restaurant */}
-			{/* <div id="foodImageContainer">
-				{images.slice(0, 6).map((image, i) => {
-					return (
-						<img
-							className="foodImages"
-							src={image}
-							alt={"displays images from img/foodArray"}
-						/>
-					);
-				})}
-			</div> */}
 
 		</div>
 	);
