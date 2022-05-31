@@ -7,7 +7,8 @@ const Food = () => {
 
 	return (
 			<div>
-				Food 
+				<h1 className="pageHeader"> Restaurant Array </h1>
+				<h2 className="pageIntro"> Please search for restaurants by Regional Cuisine </h2>
 				<SearchCuisine />
 				<Footer/>
 			</div>
