@@ -1,8 +1,12 @@
-.App {
+.App{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(208, 221, 237);
+  background-position: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .hero {
