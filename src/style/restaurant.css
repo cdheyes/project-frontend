@@ -83,3 +83,41 @@
 transform: scale(1.03);
 
 }
+
+#uploadContainer{
+    height:100%;
+    background-color: rgb(208, 221, 237);
+    padding-bottom: 10%;
+}
+
+
+
+h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color:  rgb(255, 123, 0);
+}
+
+.carouselContainerFood{
+
+    max-width: 100%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.array{
+        min-width: 16%;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 2px;
+        padding-right: 1%;
+}
+
+
+.arrayImg{
+    border-radius: 3%;
+}
+
+.array:hover{
+    opacity: 50%;
+}

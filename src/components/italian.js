@@ -1,7 +1,7 @@
 import {motion} from "framer-motion";
 import {useRef, useEffect, useState} from "react";
 import image from "../img/italianArray"
-import "../style/home.css";
+import "../style/restaurant.css";
 export const Italian = () => {
 
     const [width, setWidth] = useState(0);
