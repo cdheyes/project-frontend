@@ -22,9 +22,9 @@ export const Indian = () => {
             <div className="caroselRow">
                 {image.map(image =>{
                     return(
-                      <motion.div className="item" key={image}>
+                      <motion.div className="array" key={image}>
                           {/* <h5>Cuisine</h5> */}
-                          <button className="btnImage"><a href=""><img className="itemImg" src={image} alt="Cuisine"/></a></button>
+                          <button className="btnImage"><a href=""><img className="arrayImg" src={image} alt="Cuisine"/></a></button>
                       </motion.div>
                       
                     );
