@@ -1,10 +1,10 @@
 .footer {
-    background-color: rgb(249, 174, 103) ;
+    background-color: #3482ff;
 
     box-shadow: 0 2px 5px rgb(52, 130, 255, 0.5),
                 inset 0 1px 1px rgb(52, 130, 255, 0.1);
     /* border-bottom: 5px solid  #3482ff; */
-    border-top: 5px solid  #3482ff;
+    border-top: 3px solid rgb(255, 131, 15);
     display: flex;
     padding: 15px 5px 10px 5px;
     /*      top right bottom left */

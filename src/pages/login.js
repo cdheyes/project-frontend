@@ -11,9 +11,9 @@ const Login = () => {
     const [user, setUser] = useState();
     return (
         <div className="formContainer">
-            <div className="profileHeader">
+            
             <Header title={user} />
-            </div>
+            
             
             <div className="signUpForm">
                 <h1 className="sectionHeader">Sign-up</h1>

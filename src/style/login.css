@@ -1,6 +1,6 @@
 .formContainer {
     width: 100%;
-    height: 100%;
+    height: 80%;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 10%;
+    height: 5%;
 }
 .signUpForm, .logInForm {
     width: 50%;
@@ -70,7 +70,7 @@
     color: #3482ff;
     cursor: pointer;
 }
-.inputBox:hover{
+/* .inputBox:hover{
     background-color: rgb(52, 130, 255, 0.5);
     box-shadow: 0 2px 5px rgb(52, 130, 255, 0.5),
                 inset 0 1px 1px rgb(52, 130, 255, 0.5);
@@ -81,7 +81,7 @@
                 inset 0 1px 1px rgb(52, 130, 255, 0.5);
 }
 
-/* .actionBtn {
+.actionBtn {
     border: 1px solid black;
     border-radius: 5px;
     width: 20%;
