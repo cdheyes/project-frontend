@@ -17,11 +17,13 @@ h5{
     margin-top: 1%;
     margin-right: 9%;
     margin-left: 10%;
+    border: 2px solid green;
 }
 
 .caroselRow{
     display: flex;
     flex-direction: row;
+    border: 2px solid rgb(162, 255, 2);
 }
 
 .item{
@@ -30,6 +32,7 @@ h5{
     padding: 20px;
     padding-top: 1px;
     padding-bottom: 2px;
+   
 }
 
 .itemImg{
@@ -37,6 +40,7 @@ h5{
     height: 100%;
     border-radius: 3%;
     pointer-events: none;
+    border: 2px solid rgb(255, 2, 2);
 }
 
 .array{

@@ -13,7 +13,7 @@ export const Japanese = () => {
     }, []);
 
     return (
-        <div className="carouselContainer">
+        <div className="carouselContainerFood">
           <h2>Sushi</h2>
         
         <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>

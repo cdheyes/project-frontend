@@ -13,7 +13,7 @@ export const Chinese = () => {
     }, []);
 
     return (
-        <div className="carouselContainer">
+        <div className="carouselContainerFood">
           <h2>Chinese</h2>
         
         <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
