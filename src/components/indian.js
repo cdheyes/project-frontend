@@ -1,7 +1,7 @@
 import {motion} from "framer-motion";
 import {useRef, useEffect, useState} from "react";
 import image from "../img/curryArray"
-import "../style/home.css";
+import "../style/restaurant.css";
 export const Indian = () => {
 
     const [width, setWidth] = useState(0);

@@ -1,6 +1,8 @@
 import React from "react";
 import { Footer } from "../components/footer";
 import { SearchCuisine } from "../components/cuisines";
+import "../style/food.css";
+
 
 
 const Food = () => {
