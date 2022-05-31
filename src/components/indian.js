@@ -1,8 +1,8 @@
 import {motion} from "framer-motion";
 import {useRef, useEffect, useState} from "react";
-import image from "../img/turkishArray"
+import image from "../img/curryArray"
 import "../style/home.css";
-export const Turkish = () => {
+export const Indian = () => {
 
     const [width, setWidth] = useState(0);
     const carousel = useRef();
@@ -14,8 +14,7 @@ export const Turkish = () => {
 
     return (
         <div className="carouselContainer">
-          <h2>Turkish</h2>
-        
+        <h2>Indian</h2>
         <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
         <motion.div drag="x"
         dragConstraints= {{ right: 0, left: -width}}
@@ -39,5 +38,3 @@ export const Turkish = () => {
         
     );
     }
-
-
