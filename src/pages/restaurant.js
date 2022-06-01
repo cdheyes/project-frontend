@@ -28,8 +28,9 @@ const Restaurant = () => {
 
 			<div id="uploadContainer">
 				<span>Add a picture of your meal: </span>
-				<Upload />
+				
 				<div id="foodImageContainer">
+				<Upload />
 				<Turkish />
 				<Indian />
 				<Italian />
