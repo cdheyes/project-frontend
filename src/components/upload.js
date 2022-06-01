@@ -32,7 +32,7 @@ export const Upload = () => {
 	const myImage = cld.image(imageId);
 	myImage.resize(fill().width(250).height(250));
 	return (
-		<div>
+		<div className="advanceContainer">
 			<input
 				className="chooseButton"
 				type="file"
@@ -43,7 +43,7 @@ export const Upload = () => {
 			<button className="uploadButton" onClick={uploadImage}>
 				Upload Image
 			</button>
-			<AdvancedImage cldImg={myImage} />
+			<AdvancedImage className="advanced" cldImg={myImage}/>
 		</div>
 	);
 };

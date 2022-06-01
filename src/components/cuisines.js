@@ -25,7 +25,7 @@ const submitHandler = async (e) => {
                 <div className="searchResultContainer">
                 <div className="searchResult">
                      <h1 className="searchTitle">{item.name}</h1>
-                     <NavLink activeClassName="active_styles" exact to="/restaurant"><li><IconContext.Provider value={{ className: "react-icons" }}></IconContext.Provider> View Users Photo Reviews</li></NavLink>
+                     <NavLink activeClassName="active_styles" exact to="/food"><li><IconContext.Provider value={{ className: "react-icons" }}></IconContext.Provider> View Users Photo Reviews</li></NavLink>
                 </div>
                 </div>
              )
