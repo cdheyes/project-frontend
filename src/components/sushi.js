@@ -14,7 +14,7 @@ export const Japanese = () => {
 
     return (
         <div className="carouselContainerFood">
-          <h2>Sushi</h2>
+          <h2>Japanese</h2>
         
         <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
         <motion.div drag="x"
